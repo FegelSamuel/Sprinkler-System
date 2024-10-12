@@ -3,7 +3,7 @@ graph TD
     A["Solar Power"] --> B["Arduino"]
     B["Arduino"] --> H["Relay"]
     B["Arduino"] --> C["Wifi"]
-    B["Arduino"] --> D["Moisture Sensor and Auxiliary Arduino"]
+    B["Arduino"] --> D["Moisture Sensor and Auxilary Arduino"]
     C["Wifi"] --> E["API"]
     C["Wifi"] --> F["SMS"]
     C["Wifi"] --> G["School"]
