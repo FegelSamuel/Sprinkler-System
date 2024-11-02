@@ -17,7 +17,7 @@ void loop()
   // Turn off the sensor to reduce metal corrosion
   // over time
   digitalWrite(A0, LOW);
-  	if (moisture < 600) {
+  	if (moisture < 750) { // sufficiently wet
           Serial.println(moisture);
         } 
   	else {
