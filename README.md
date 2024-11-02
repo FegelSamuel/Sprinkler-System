@@ -8,7 +8,6 @@ graph TD
     E["API"] --> C["Wifi"]
     C["Wifi"] --> F["SMS"]
     C["Wifi"] --> B["Main Arduino"]
-    C["Wifi"] --> G["School"]
     D["Moisture Sensor and Auxilary Arduino"] --> B["Main Arduino"]
     classDef red fill:#f45,stroke:#333,stroke-width:2px;
     style B color:black;
