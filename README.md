@@ -1,6 +1,9 @@
 ```mermaid
 graph TD
     A["Solar Power"] --> B["Main Arduino"]
+    B --> G["Relay Module"]
+    G --> H["Solenoid"]
+    H --> M["Water Valve"]
     B["Main Arduino"] --> C["Wifi"]
     C["Wifi"] --> E["API"]
     E["API"] --> C["Wifi"]
